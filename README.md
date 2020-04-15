@@ -22,7 +22,7 @@ Delete pet:<br/>
 
 ## Checkpoint 2 - ANT
 
-*Objective: *<br/>
+*Objective:*<br/>
 Dust off the old grand daddy of java build tools..Ant...and use that to compile your application into a jar and run it
 
 Test and compile using javac into another folder:<br/>
@@ -39,7 +39,7 @@ Compile and finally run:<br/>
 
 ## Checkpoint 3 - MAVEN
 
-*Objective: *<br/>
+*Objective:*<br/>
 Move on from ant to maven
 
 Note: screenshots not included because the lines it produced is long)
