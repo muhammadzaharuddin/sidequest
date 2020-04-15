@@ -25,24 +25,22 @@ Delete pet:<br/>
 *Objective:*<br/>
 Dust off the old grand daddy of java build tools..Ant...and use that to compile your application into a jar and run it
 
-Test and compile using javac into another folder:<br/>
+1. Test and compile using javac into another folder:<br/>
 ![](https://github.com/muhammadzaharuddin/sidequest/blob/master/images/Screen%20Shot%202020-04-15%20at%202.07.47%20PM.png?raw=true)
 
-Create a myManifest file, a jar directory, and create the jar file:<br/>
+2. Create a myManifest file, a jar directory, and create the jar file:<br/>
 (Add the sqllite jar file to the same directory)<br/>
 ![](https://github.com/muhammadzaharuddin/sidequest/blob/master/images/Screen%20Shot%202020-04-15%20at%202.21.22%20PM.png?raw=true)
 
-Then, write a build.xml in the root folder.
+3. Then, write a build.xml in the root folder.
 
-Compile and finally run:<br/>
-![](https://github.com/muhammadzaharuddin/sidequest/blob/master/images/Screen%20Shot%202020-04-15%20at%202.58.16%20PM.png?raw=true)
+4. Compile and finally run:<br/>
+![](https://github.com/muhammadzaharuddin/sidequest/blob/master/images/Screen%20Shot%202020-04-15%20at%205.42.18%20PM.png?raw=true)
 
 ## Checkpoint 3 - MAVEN
 
 *Objective:*<br/>
 Move on from ant to maven
-
-Note: screenshots not included because the lines it produced is long)
 
 1. Create a java project:<br/>
 `mvn archetype:generate -DgroupId=com.example -DartifactId=pet -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false`
@@ -63,6 +61,7 @@ Note: screenshots not included because the lines it produced is long)
 6. Deploy: <br/>
 - done in an integration or release environment, copies the final package to the remote repository for sharing with other developers and projects.
 `mvn exec:java`
+![](https://github.com/muhammadzaharuddin/sidequest/blob/master/images/Screen%20Shot%202020-04-15%20at%205.24.56%20PM.png?raw=true)
 
 ## Additional - Spring Boot
 
