@@ -55,12 +55,12 @@ Move on from ant to maven
 `mvn clean package`
 
 5. Install: <br/>
-- install the package into the local repository, for use as a dependency in other projects locally
+- install the package into the local repository, for use as a dependency in other projects locally<br/>
 `mvn clean install`
 
 6. Deploy: <br/>
-- done in an integration or release environment, copies the final package to the remote repository for sharing with other developers and projects.
-`mvn exec:java`
+- done in an integration or release environment, copies the final package to the remote repository for sharing with other developers and projects.<br/>
+`mvn exec:java`<br/>
 ![](https://github.com/muhammadzaharuddin/sidequest/blob/master/images/Screen%20Shot%202020-04-15%20at%205.24.56%20PM.png?raw=true)
 
 ## Additional - Spring Boot
